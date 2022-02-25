@@ -1,0 +1,8 @@
+{"namespace": "com.friends.accountservice",
+  "type": "record",
+  "name": "Account",
+  "fields": [
+    {"name": "id", "type": "string"},
+    {"name": "name",  "type": ["string", "null"]}
+  ]
+}

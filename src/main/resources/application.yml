@@ -1,0 +1,17 @@
+server :
+  port : 8085
+spring:
+  kafka:
+    properties:
+      schema.registry.url: ${SCHEMA_REGISTRY_URL}
+    bootstrap-servers: ${BROKERS_IP}
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: io.confluent.kafka.serializers.KafkaAvroSerializer
+
+account:
+  topic:
+    name: account
+accounttransaction:
+  topic:
+    name: account-transaction

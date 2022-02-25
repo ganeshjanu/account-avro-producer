@@ -1,0 +1,8 @@
+{"namespace": "com.friends.accountservice",
+  "type": "record",
+  "name": "AccountTransaction",
+  "fields": [
+    {"name": "id", "type": "string"},
+    {"name": "accountId",  "type": "string"}
+  ]
+}
