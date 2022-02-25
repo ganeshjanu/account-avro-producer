@@ -1,6 +1,6 @@
-# account-service-producer
+# account-avro-producer
 
-This microservice is mainly used to produce records into a topic.
+This microservice is mainly used to produce records into a topic by using avro format.
 
 APIs
 
@@ -64,5 +64,9 @@ HTTP POST = /accountTransaction
       _docker push <docker_username>/account-avro-producer:0.1_
       
   
+ ## Account & Account template files
  
-      
+  1. Currently the template files are under the src/main/resources/avro folder
+
+  2. By using maven plugin, read the template files and create the respective beans.
+
