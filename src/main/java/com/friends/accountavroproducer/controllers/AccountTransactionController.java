@@ -1,9 +1,9 @@
-package com.friends.accountserviceproducer.controllers;
+package com.friends.accountavroproducer.controllers;
 
 import com.friends.accountservice.AccountTransaction;
-import com.friends.accountserviceproducer.beans.AccountTransactionRequest;
-import com.friends.accountserviceproducer.exceptions.AccountServiceException;
-import com.friends.accountserviceproducer.services.AccountTransactionService;
+import com.friends.accountavroproducer.beans.AccountTransactionRequest;
+import com.friends.accountavroproducer.exceptions.AccountServiceException;
+import com.friends.accountavroproducer.services.AccountTransactionService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

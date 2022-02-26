@@ -1,8 +1,7 @@
-package com.friends.accountserviceproducer.services;
+package com.friends.accountavroproducer.services;
 
-import com.friends.accountservice.Account;
 import com.friends.accountservice.AccountTransaction;
-import com.friends.accountserviceproducer.exceptions.AccountServiceException;
+import com.friends.accountavroproducer.exceptions.AccountServiceException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.kafka.core.KafkaTemplate;

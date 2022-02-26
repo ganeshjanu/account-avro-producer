@@ -1,4 +1,4 @@
-package com.friends.accountserviceproducer.beans;
+package com.friends.accountavroproducer.beans;
 
 public class AccountRequest {
 
